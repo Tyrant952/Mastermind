@@ -1,0 +1,32 @@
+'''
+Bowen Niu
+CS 5001 Fall 2023
+Final Project
+'''
+    Initially, delving into Python Turtle by reviewing and studying it proved immensely beneficial. 
+Concepts like "register shape" and "turtle tracer" were entirely new to me before undertaking this assignment, 
+and the online resources played a crucial role in my understanding. To tackle the assignment more effectively, 
+I opted to break down the substantial workload into smaller segments. 
+Working on different aspects on separate days helped me mitigate potential confusion related to variables and logic. 
+On the first day, I focused on sketching the gameboard canvas and the rectangles as a warm-up, 
+allowing me to revisit and reinforce my knowledge of turtle graphics. Initially, I attempted a step-by-step approach 
+to drawing the rectangles. However, I eventually realized that this method was unnecessary. 
+The key was to establish constants and determine the precise positions I wanted them to occupy.
+Moving on to the next phase, I proceeded to draw the circles and the buttons labeled "choices," 
+filling them in with the specified colors. Crafting the "Yes" and "No" buttons posed no significant challenges. 
+However, when it came to adjusting the size of the "Quit" button without employing Tkinter, I encountered difficulty. 
+Consequently, I opted to upload the GIF to a website that facilitates size adjustments for images and resized the entire button.
+During this time, I have completed the construction of "board.py" and I am able to move on to the next step.
+    
+    Making my turtle move according to the player's actions is not easy. I have to use a class to combine data and operations, 
+making my code look more readable.At the same time, I will reuse this code multiple times during the programming process. 
+Using a class saves me time and helps me organize my thoughts and logic. I have never written such lengthy code before, 
+and the class helps me stay organized. The game logic is handled by the "check logic" function, whcih evaluates the 
+correctness of a player's guess in terms of both color and position. The testing strategy focuses on the core game function, 
+the "check logic" function. Responsible for evaluating the correctness of plays' guess. The test cases include scenarios where
+the "one black and 2 red" cases and "0 black and 2 red" cases where mixed of correct colors and positions, and situation with all correct guesses.
+The tests are being written using the "unittest" to ensure that the game logic runs as expected. Also, I modified part of the Marble.py code, 
+which have made the whole function more consistance and runnable, for example, when clicking on the "Yes" or "No" marble, by clicking 
+on the empty area, the player could have miss clicked and did not hit the button. While the function still responds and make wrong directions. 
+the colored marbles have similar problems, while I have tried my best to reduce the mistake. As long as the player run the game not 
+so fast, the function shall be working as expected. 

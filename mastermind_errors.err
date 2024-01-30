@@ -1,0 +1,38 @@
+'''
+Bowen Niu
+CS 5001 Fall 2023
+Final Project
+'''
+Syntax Error: 
+mastermind_game.py    
+    line 52 Nov 27
+    line 66 Nov.27
+    line 71 Nov.27
+    line 76 Nov.27
+board.py
+    line 14 Nov.27
+    
+TypeError: 
+mastermind_game.py
+    line 19 Dec.4
+board.py 
+    line 22 Nov.27
+
+IndexError:
+mastermind_game.py
+    line 15 Dec.3
+    line 29 Dec.1
+    line 186, in fill_logic Dec 7 index out of range
+    
+NameError:
+mastermind_game.py
+    line 44 Dec.1
+    line 71 Dec.3
+    line 76 Dec.3
+    line 240 Dec.8 
+board.py
+    line 30 Nov.27 OFFSET
+
+FileNotFoundError:
+mastermind_game.py    
+    line 260 Dec 7
